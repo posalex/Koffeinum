@@ -4,6 +4,8 @@ A native macOS menu bar app that prevents your Mac from sleeping — like `caffe
 
 Koffeinum sits in your menu bar showing **☕👀**. Click it to select a duration, and your Mac will stay awake. While active, the icon is replaced by an orange countdown timer: **1:56:34 👀**.
 
+![Koffeinum screenshot](screenshot.png)
+
 ## Features
 
 - **One-click sleep prevention** with predefined durations: 15m, 30m, 1h, 2h, 3h, 4h, 5h, plus **Indefinitely (until Stop)**
