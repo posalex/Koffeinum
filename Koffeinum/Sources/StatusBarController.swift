@@ -26,6 +26,7 @@ final class StatusBarController: NSObject, CaffeinateManagerDelegate {
     private var tooltipLabel: NSTextField?
     private var localEventMonitor: Any?
     private var globalEventMonitor: Any?
+    private var menuIsOpen = false
 
     override init() {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
@@ -275,6 +276,11 @@ final class StatusBarController: NSObject, CaffeinateManagerDelegate {
     }
 
     private func handleModifierChange(_ flags: NSEvent.ModifierFlags) {
+        guard menuIsOpen else {
+            hideTooltip()
+            return
+        }
+
         let tooltipText: String?
         if flags.contains(.option) {
             tooltipText = L10n.tooltipOption
@@ -374,7 +380,13 @@ final class StatusBarController: NSObject, CaffeinateManagerDelegate {
 // MARK: - NSMenuDelegate
 
 extension StatusBarController: NSMenuDelegate {
+    func menuDidClose(_ menu: NSMenu) {
+        menuIsOpen = false
+        hideTooltip()
+    }
+
     func menuWillOpen(_ menu: NSMenu) {
+        menuIsOpen = true
         updateLaunchAtLoginState()
 
         let isActive = caffeinateManager.isActive
