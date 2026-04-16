@@ -1,0 +1,58 @@
+/*
+  Koffeinum — English localisation (development language / fallback)
+  Keep keys in sync with Sources/L10n.swift.
+*/
+
+// MARK: - App
+"app.tooltip"                     = "Koffeinum — prevent sleep";
+
+// MARK: - Accessibility
+"a11y.status.inactive"            = "Koffeinum — inactive";
+"a11y.status.active"              = "Koffeinum — active, %@ remaining";
+
+// MARK: - Durations
+"duration.15min"                  = "15 Minutes";
+"duration.30min"                  = "30 Minutes";
+"duration.1h"                     = "1 Hour";
+"duration.2h"                     = "2 Hours";
+"duration.3h"                     = "3 Hours";
+"duration.4h"                     = "4 Hours";
+"duration.5h"                     = "5 Hours";
+"duration.indefinite"             = "Indefinitely (until Stop)";
+
+// MARK: - Menu
+"menu.stop"                       = "⏹ Stop";
+"menu.stop.with_time"             = "⏹ Stop (%@ remaining)";
+"menu.stop.indefinite"            = "⏹ Stop (running indefinitely)";
+"menu.launch_at_login"            = "Launch at Login";
+"menu.quit"                       = "Quit";
+"menu.active_header"              = "● Active: %@";
+"menu.error_prefix"                = "⚠︎ %@";
+"menu.alternate_title"            = "%1$@  %2$@";
+
+// MARK: - Modes (short labels)
+"mode.default.short"              = "Display + Idle";
+"mode.idle_only.short"            = "⌥ Idle sleep only";
+"mode.disk_sleep.short"           = "⌃ Disk sleep";
+"mode.system_sleep.short"         = "⇧ System sleep";
+
+// MARK: - Modes (long descriptions)
+"mode.default.description"        = "Prevent display & system idle sleep";
+"mode.idle_only.description"      = "Prevent system idle sleep only";
+"mode.disk_sleep.description"     = "Prevent disk sleep";
+"mode.system_sleep.description"   = "Prevent full system sleep";
+
+// MARK: - Modifier tooltips
+"tooltip.option"                  = "⌥ Option: prevent system idle sleep only (-i)";
+"tooltip.control"                 = "⌃ Ctrl: prevent disk sleep (-m)";
+"tooltip.shift"                   = "⇧ Shift: prevent full system sleep (-s)";
+
+// MARK: - Launch-at-Login
+"launch_at_login.requires_ventura" = "Requires macOS 13 (Ventura) or newer.";
+"launch_at_login.failed_title"    = "Launch at Login failed";
+
+// MARK: - Notifications
+"notification.timer_ended.body"   = "The caffeinate timer has ended.";
+
+// MARK: - Errors
+"error.caffeinate_start_failed"   = "Could not start caffeinate: %@";

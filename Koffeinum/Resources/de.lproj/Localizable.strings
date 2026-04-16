@@ -1,0 +1,58 @@
+/*
+  Koffeinum — German localisation
+  Keep keys in sync with Sources/L10n.swift.
+*/
+
+// MARK: - App
+"app.tooltip"                     = "Koffeinum — Schlaf verhindern";
+
+// MARK: - Accessibility
+"a11y.status.inactive"            = "Koffeinum — inaktiv";
+"a11y.status.active"              = "Koffeinum — aktiv, %@ verbleibend";
+
+// MARK: - Durations
+"duration.15min"                  = "15 Minuten";
+"duration.30min"                  = "30 Minuten";
+"duration.1h"                     = "1 Stunde";
+"duration.2h"                     = "2 Stunden";
+"duration.3h"                     = "3 Stunden";
+"duration.4h"                     = "4 Stunden";
+"duration.5h"                     = "5 Stunden";
+"duration.indefinite"             = "Unbegrenzt (bis Stop)";
+
+// MARK: - Menu
+"menu.stop"                       = "⏹ Stop";
+"menu.stop.with_time"             = "⏹ Stop (%@ verbleibend)";
+"menu.stop.indefinite"            = "⏹ Stop (läuft unbegrenzt)";
+"menu.launch_at_login"            = "Beim Anmelden starten";
+"menu.quit"                       = "Beenden";
+"menu.active_header"              = "● Aktiv: %@";
+"menu.error_prefix"                = "⚠︎ %@";
+"menu.alternate_title"            = "%1$@  %2$@";
+
+// MARK: - Modes (short labels)
+"mode.default.short"              = "Display + Idle";
+"mode.idle_only.short"            = "⌥ Nur Idle-Schlaf";
+"mode.disk_sleep.short"           = "⌃ Disk-Schlaf";
+"mode.system_sleep.short"         = "⇧ System-Schlaf";
+
+// MARK: - Modes (long descriptions)
+"mode.default.description"        = "Display & System-Idle-Schlaf verhindern";
+"mode.idle_only.description"      = "Nur System-Idle-Schlaf verhindern";
+"mode.disk_sleep.description"     = "Festplatten-Ruhezustand verhindern";
+"mode.system_sleep.description"   = "Gesamten System-Ruhezustand verhindern";
+
+// MARK: - Modifier tooltips
+"tooltip.option"                  = "⌥ Option: Nur System-Idle-Schlaf verhindern (-i)";
+"tooltip.control"                 = "⌃ Ctrl: Festplatten-Ruhezustand verhindern (-m)";
+"tooltip.shift"                   = "⇧ Shift: Gesamten System-Ruhezustand verhindern (-s)";
+
+// MARK: - Launch-at-Login
+"launch_at_login.requires_ventura" = "Erfordert macOS 13 (Ventura) oder neuer.";
+"launch_at_login.failed_title"    = "Beim Anmelden starten fehlgeschlagen";
+
+// MARK: - Notifications
+"notification.timer_ended.body"   = "Der Caffeinate-Timer ist abgelaufen.";
+
+// MARK: - Errors
+"error.caffeinate_start_failed"   = "caffeinate konnte nicht gestartet werden: %@";
