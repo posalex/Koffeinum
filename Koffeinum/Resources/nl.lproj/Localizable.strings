@@ -1,0 +1,58 @@
+/*
+  Koffeinum — Dutch (Nederlands) localisation
+  Houd de keys synchroon met Sources/L10n.swift.
+*/
+
+// MARK: - App
+"app.tooltip"                     = "Koffeinum — voorkom slaapstand";
+
+// MARK: - Accessibility
+"a11y.status.inactive"            = "Koffeinum — inactief";
+"a11y.status.active"              = "Koffeinum — actief, %@ resterend";
+
+// MARK: - Durations
+"duration.15min"                  = "15 minuten";
+"duration.30min"                  = "30 minuten";
+"duration.1h"                     = "1 uur";
+"duration.2h"                     = "2 uur";
+"duration.3h"                     = "3 uur";
+"duration.4h"                     = "4 uur";
+"duration.5h"                     = "5 uur";
+"duration.indefinite"             = "Onbeperkt (tot Stop)";
+
+// MARK: - Menu
+"menu.stop"                       = "⏹ Stop";
+"menu.stop.with_time"             = "⏹ Stop (%@ resterend)";
+"menu.stop.indefinite"            = "⏹ Stop (loopt onbeperkt)";
+"menu.launch_at_login"            = "Starten bij inloggen";
+"menu.quit"                       = "Stoppen";
+"menu.active_header"              = "● Actief: %@";
+"menu.error_prefix"                = "⚠︎ %@";
+"menu.alternate_title"            = "%1$@  %2$@";
+
+// MARK: - Modes (short labels)
+"mode.default.short"              = "Scherm + Idle";
+"mode.idle_only.short"            = "⌥ Alleen idle-slaap";
+"mode.disk_sleep.short"           = "⌃ Schijfslaap";
+"mode.system_sleep.short"         = "⇧ Systeemslaap";
+
+// MARK: - Modes (long descriptions)
+"mode.default.description"        = "Scherm- en systeem-idle-slaap voorkomen";
+"mode.idle_only.description"      = "Alleen systeem-idle-slaap voorkomen";
+"mode.disk_sleep.description"     = "Schijfslaap voorkomen";
+"mode.system_sleep.description"   = "Volledige systeemslaap voorkomen";
+
+// MARK: - Modifier tooltips
+"tooltip.option"                  = "⌥ Option: alleen systeem-idle-slaap voorkomen (-i)";
+"tooltip.control"                 = "⌃ Ctrl: schijfslaap voorkomen (-m)";
+"tooltip.shift"                   = "⇧ Shift: volledige systeemslaap voorkomen (-s)";
+
+// MARK: - Launch-at-Login
+"launch_at_login.requires_ventura" = "Vereist macOS 13 (Ventura) of nieuwer.";
+"launch_at_login.failed_title"    = "Starten bij inloggen mislukt";
+
+// MARK: - Notifications
+"notification.timer_ended.body"   = "De caffeinate-timer is afgelopen.";
+
+// MARK: - Errors
+"error.caffeinate_start_failed"   = "Kon caffeinate niet starten: %@";
